@@ -8,7 +8,7 @@ WORKDIR /cs1
 COPY target/hospital-0.0.1-SNAPSHOT.jar /cs1/hospital.jar
 
 # 暴露应用端口（默认 Spring Boot 使用 8080 端口）
-EXPOSE 8082
+EXPOSE 8085
 
 # 启动 Spring Boot 应用
 ENTRYPOINT ["java", "-jar", "hospital.jar"]
