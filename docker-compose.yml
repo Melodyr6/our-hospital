@@ -18,7 +18,7 @@ services:
     depends_on:
       - mysql
     ports:
-      - "8085:8080"
+      - "8085:8085"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-container5:3306/hospital?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
